@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+wheels/
+.coverage
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+generated-images/
+.codex-image-*.png
+auth.json

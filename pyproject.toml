@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-image-cli"
+version = "0.1.0"
+description = "Unofficial standalone image CLI using an existing file-backed Codex ChatGPT session"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/sheldonxxxx/codex-image-cli"
+Issues = "https://github.com/sheldonxxxx/codex-image-cli/issues"
+Protocol = "https://github.com/sheldonxxxx/codex-image-cli/blob/main/PROTOCOL.md"
+
+[project.scripts]
+codex-image = "codex_image_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
